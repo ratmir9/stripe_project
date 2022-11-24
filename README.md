@@ -15,3 +15,8 @@ STRIPE_PUBLIC_KEY=your_stripe_public_key
 ```
 sudo docker-compose up -d 
 ```
+4. **Для создание суперпользователя выполните следующую коианду.**
+```
+sudo docker exec -it django_app python manage.py createsuperuser
+```
+
